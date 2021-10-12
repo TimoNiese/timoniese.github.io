@@ -1,0 +1,27 @@
+/*
+Autor: Timo Niese
+Version: 0.0.10
+Datum: 06.11.2019
+*/ 
+
+/* */
+
+#backgroundlogo{ /* Definition Hintergrundbild im Header */
+
+    z-index:0;
+    background-image: url("/bilder/background/background3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 244px;
+}
+
+}
+.headerlogo{ /*Definition für die Div vom Logo im Header */ 
+    height: 20px;
+    z-index:1;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}

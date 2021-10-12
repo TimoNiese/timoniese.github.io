@@ -1,0 +1,18 @@
+/*
+Autor: Timo Niese
+Version 0.0.8
+Datum: 05.11.2019
+*/ 
+
+/* */
+/* Definitionen der Kacheln */
+
+body{
+    background-color: grey;
+}
+
+#nichtmarkieren {
+ -ms-user-select: None;
+ -moz-user-select: None;
+ -webkit-user-select: None;
+}

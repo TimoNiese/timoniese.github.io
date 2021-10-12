@@ -1,0 +1,20 @@
+/*
+Autor: Timo Niese
+Version 0.0.8
+Datum: 05.11.2019
+*/ 
+
+/* */
+/* Definitionen der Kacheln */
+
+body{ 
+background-color: whitesmoke;
+}
+
+#footer {					/* Definition vom Footer */
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+    font-size: 30px;
+    padding: 50px;
+}

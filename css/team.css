@@ -1,0 +1,91 @@
+/*
+Autor: Timo Niese
+Version: 0.0.10
+Datum: 06.11.2019
+*/ 
+
+/* */
+
+
+
+
+/* Definitionen der Kacheln */
+.more {
+    display: flex;				
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    font-size: 40px;
+    text-align: left;
+}
+.more div {				
+    background-size: cover;					
+    min-width: 450px;							
+    min-height: 345px;							
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#froehlich{
+    background-color: whitesmoke;
+    color: black;
+
+}
+#goldbek{
+    background-color: whitesmoke;
+    color: black;
+}
+#schuhmacher{
+    background-color: whitesmoke;
+    color: black;
+}
+#stiefvater{
+    background-color: whitesmoke;
+    color: black;
+}
+#rau{
+    background-color: whitesmoke;
+    color: black;
+    
+}
+
+.more2 {
+    display: flex;				
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    font-size: 40px;
+    text-align: left;
+
+}
+.more2 div {				
+    background-size: cover;					
+    min-width: 450px;							
+    min-height: 345px;							
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+figure {
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    width: 470px;
+    border: 1px solid gainsboro;
+    background: white;
+}
+
+figcaption {
+    padding: 10px;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,28 @@
+/*
+Autor: Timo Niese
+Version: 0.0.10
+Datum: 06.11.2019
+*/ 
+
+/* */
+
+
+
+.object-fit {  /* Definition vom "Baustellen" Bild */
+    width: 200px; 
+    height: 300px; 
+    margin: 4em auto; 
+
+}
+.object-fit img { 
+    object-fit: cover; 
+    width: 300%; 
+    height: 150%;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+

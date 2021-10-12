@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+Autor: Timo Niese
+Version: 0.0.10
+Datum: 06.11.2019
+-->
+
+<!-- -->
+
+
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Komputist - Ihr IT Spezialist</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/head.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/kontakt.css"> 
+        <link rel="stylesheet" href="css/footer.css"> 
+    </head>
+    <body>
+        <div id="topnav"> </div>
+        <div id="backgroundlogo">
+            <div align='center'>  
+                <div class="headerlogo">         <!--Logo im Header -->
+                    <img src="/bilder/logo/logo2.png" />
+                </div>
+                <div class="topnav"> <!--Navigationsleiste -->
+                    <a href="index.html" href="#startseite">Startseite</a>
+                    <a href="team.html">Team</a>
+                    <a href="service.html">Service</a>
+                    <a href="shop.html">Shop</a>
+                    <a class="active"href="kontakt.html">Kontakt</a>
+                </div> 
+            </div>
+
+        </div>
+
+        <div align="right">
+            <div class="arrow">
+                <a href="#footer"><img src="bilder/arrow.png" height="30px"></a>
+            </div>
+        </div>
+
+        <div class="formular">
+            <form action="">
+
+                <label for="fname">Vorname</label>
+                <input type="text" id="fname" name="vorname" placeholder="Ihr Vorname">
+
+                <label for="lname">Nachname</label>
+                <input type="text" id="lname" name="Nachname" placeholder="Ihr Nachname">
+
+                <label for="land">Land</label>
+                <select id="land" name="land">
+                    <option value="land">Bitte wählen Sie ein Land.</option>
+                    <option value="deutschland">Deutschland</option>
+                    <option value="oesterreich">Österreich</option>
+                    <option value="schweiz">Schweiz</option>
+                </select>
+
+                <label for="betreff">Betreff</label>
+                <textarea id="betreff" name="betreff" placeholder="Schreiben Sie etwas..." style="height:200px"></textarea>
+
+                <button type="submit">Absenden</button>
+
+            </form>
+        </div>
+        <br>
+        <div class="kontakt">
+            <div googlemaps style='height:300px;width:500px;'><iframe width="500" height="300" src=https://maps.google.de/maps?hl=de&q=%20Osterstraße+69%20Hamburg&t=&z=14&ie=utf8&iwloc=b&output=embed frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style='height:300px;width:500px;'></iframe><p style="text-align:right; margin:0px; padding-top:-10px; line-height:10px;font-size:10px;margin-top: -25px;">
+                </p>
+            </div>
+            <div id="zeiten">
+                <table>
+                    <caption style="text-decoration: underline">Öffnungszeiten</caption>
+                    <tr>
+                        <th> Tag</th>
+                        <th>Uhrzeit</th>
+                    </tr>
+                    <tr>
+                        <td>Montag</td>
+                        <td>09:00 – 19:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Dienstag</td>
+                        <td>09:00 – 19:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Mittwoch</td>
+                        <td>09:00 – 19:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Donnerstag</td>
+                        <td>09:00 – 19:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Freitag</td>
+                        <td>09:00 – 19:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Samstag</td>
+                        <td>09:00 – 19:00 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>Sonntag</td>
+                        <td>Geschlossen</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="daten"  style="font-size: 30px">
+                <div style="color: khaki">
+                    <table><tr>
+                        <td>Tim Fröhlich</td>
+                        </tr>
+                        <td>Osterstraße 69</td><tr>
+                        </tr>
+                        <td>22527 Hamburg</td><tr>
+                        </tr>
+                        <td>Telefon: 040 985909</td><tr>
+                        </tr>
+                        <td>E-Mail: info@komputist.de</td>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <h1 style="color: white">Klicken Sie auf das HVV Logo um Ihre Route zu berechnen</h1>
+        <a href="https://www.hvv.de/linking-service/show/7bec2f1cb58846c28d24f091abf043ea" target="_blank"><img src="https://www.hvv.de/images/logo_hvv_110x25.png" alt="Mit dem HVV zu uns" height="25" width="110" border="0"/></a>
+        <div align="right">
+            <div class="arrow">
+                <a href="#topnav"><img src="bilder/arrowup.png" height="30px"></a>
+            </div>
+        </div>
+        <!-- name="Name des eingebundenen iframe" width="so breit wird der iframe im Frontend ausgegeben"
+height="so hoch ist der iframe" align="die Ausrichtung" scrolling="soll eine Scrollbar eingefügt werden?"
+marginheight="Höhe des Randes" marginwidth="Breite des Randes"
+frameborder="Dicke der Begrenzungslinie"> -->
+
+
+
+        <div id="footer" align="center">
+            <a href="impressum.html" style="color: white">Impressum</a>
+            |
+            <a href="datenschutz.html" style="color: white">Datenschutz</a>
+            |
+            <a href="agb.html" style="color: white">AGBs</a>
+        </div>
+    </body>
+</html>

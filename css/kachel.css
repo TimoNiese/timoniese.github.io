@@ -1,0 +1,93 @@
+/*
+Autor: Timo Niese
+Version: 0.0
+.12
+Datum: 13.11.2019
+*/ 
+
+/* */
+
+
+/* Animationsdauer beim Hovern */
+.more > DIV:hover {
+    animation:scaling 0.2s;
+}
+
+/* CSS3 Animation */
+@keyframes scaling {
+    0% { transform:scale3d( 1, 1, 1 ); }
+    25% { transform:scale3d( 0.98, 0.98, 0.98 ) rotate(5deg); }
+    50% { transform:scale3d( 0.95, 0.95, 0.95 ) rotate(10deg); }
+    75% { transform:scale3d( 0.98, 0.98, 0.98 ) rotate(5deg); }
+    100% { transform:scale3d( 1, 1, 1 ); }
+}
+
+/* Animationsdauer beim Hovern */
+.more2 > DIV:hover {
+    animation:scaling 0.2s;
+
+}
+
+
+/* Definitionen der Kacheln */
+.more {
+    display: flex;				
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;	
+    font-size: 40px;
+}
+.more div {				
+    background-size: cover;							     
+    min-width: 450px;								
+    min-height: 345px;								
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#unserteam{
+    background-image: url("/bilder/team/team.png");
+    color: white;
+    border-radius: 50px;
+}
+#unserservice{
+    background-image: url("/bilder/team/SimonSchuhmacher/002_simon_schuhmacher.jpg");
+    color: white;
+    border-radius: 50px;
+}
+#onlineshop{
+    background-image: url("/bilder/shop.PNG");
+    color: white;
+    border-radius: 50px;
+}
+#kontakt{
+    background-image: url("/bilder/team/AlinaRau/003_alina_rau.jpg");
+    color: white;
+    border-radius: 50px;
+}
+
+.more2 {
+    display: flex;				
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    font-size: 40px;
+}
+.more2 div {				
+    background-size: cover;							     
+    min-width: 450px;								
+    min-height: 345px;								
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+
+}

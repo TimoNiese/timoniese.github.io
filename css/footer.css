@@ -1,0 +1,11 @@
+/*Autor: Timo Niese
+Version: 0.0.10
+Datum: 06.11.2019*/
+
+#footer {					/* Definition vom Footer */
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 50px;
+}
